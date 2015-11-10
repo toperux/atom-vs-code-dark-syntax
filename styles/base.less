@@ -35,7 +35,7 @@ atom-text-editor, :host {
   .gutter .line-number.folded,
   .gutter .line-number:after,
   .fold-marker:after {
-    color: @light-gray;
+    color: @green;
   }
 
   .invisible {
@@ -63,25 +63,25 @@ atom-text-editor .search-results .marker.current-result .region,
 }
 
 .comment {
-  color: @light-gray;
+  color: @green;
 }
 
 .entity {
   &.name.type {
-    color: @light-orange;
+    color: @yellow;
     text-decoration: underline;
   }
 
   &.other.inherited-class {
-    color: @green;
+    color: @brown;
   }
 }
 
 .keyword {
-  color: @purple;
+  color: @blue;
 
   &.control {
-    color: @purple;
+    color: @blue;
   }
 
   &.operator {
@@ -89,43 +89,43 @@ atom-text-editor .search-results .marker.current-result .region,
   }
 
   &.other.special-method {
-    color: @blue;
+    color: @light-blue;
   }
 
   &.other.unit {
-    color: @orange;
+    color: @light-blue2;
   }
 }
 
 .storage {
-  color: @purple;
+  color: @blue;
 }
 
 .constant {
-  color: @orange;
+  color: @light-blue2;
 
   &.character.escape {
-    color: @cyan;
+    color: @light-brown;
   }
 
   &.numeric {
-    color: @orange;
+    color: @light-blue2;
   }
 
   &.other.color {
-    color: @cyan;
+    color: @light-brown;
   }
 
   &.other.symbol {
-    color: @green;
+    color: @brown;
   }
 }
 
 .variable {
-  color: @red;
+  color: @blue2;
 
   &.interpolation {
-    color: darken(@red, 10%);
+    color: darken(@blue2, 10%);
   }
 
   &.parameter.function {
@@ -134,31 +134,31 @@ atom-text-editor .search-results .marker.current-result .region,
 }
 
 .invalid.illegal {
-  background-color: @red;
+  background-color: @blue2;
   color: @syntax-background-color;
 }
 
 .string {
-  color: @green;
+  color: @brown;
 
 
   &.regexp {
-    color: @cyan;
+    color: @light-brown;
 
     .source.ruby.embedded {
-      color: @orange;
+      color: @light-blue2;
     }
   }
 
   &.other.link {
-    color: @red;
+    color: @blue2;
   }
 }
 
 .punctuation {
   &.definition {
     &.comment {
-      color: @light-gray;
+      color: @green;
     }
 
     &.string,
@@ -170,82 +170,82 @@ atom-text-editor .search-results .marker.current-result .region,
 
     &.heading,
     &.identity {
-      color: @blue;
+      color: @light-blue;
     }
 
     &.bold {
-      color: @light-orange;
+      color: @yellow;
       font-weight: bold;
     }
 
     &.italic {
-      color: @purple;
+      color: @blue;
       font-style: italic;
     }
   }
 
   &.section.embedded {
-    color: darken(@red, 10%);
+    color: darken(@blue2, 10%);
   }
 
 }
 
 .support {
   &.class {
-    color: @light-orange;
+    color: @yellow;
   }
 
   &.function  {
-    color: @cyan;
+    color: @light-brown;
 
     &.any-method {
-      color: @blue;
+      color: @light-blue;
     }
   }
 }
 
 .entity {
   &.name.function {
-    color: @blue;
+    color: @light-blue;
   }
 
   &.name.class, &.name.type.class {
-    color: @light-orange;
+    color: @yellow;
   }
 
   &.name.section {
-    color: @blue;
+    color: @light-blue;
   }
 
   &.name.tag {
-    color: @red;
+    color: @blue2;
     text-decoration: underline;
   }
 
   &.other.attribute-name {
-    color: @orange;
+    color: @light-blue2;
 
     &.id {
-      color: @blue;
+      color: @light-blue;
     }
   }
 }
 
 .meta {
   &.class {
-    color: @light-orange;
+    color: @yellow;
   }
 
   &.link {
-    color: @orange;
+    color: @light-blue2;
   }
 
   &.require {
-    color: @blue;
+    color: @light-blue;
   }
 
   &.selector {
-    color: @purple;
+    color: @blue;
   }
 
   &.separator {
@@ -260,48 +260,48 @@ atom-text-editor .search-results .marker.current-result .region,
 
 .markup {
   &.bold {
-    color: @orange;
+    color: @light-blue2;
     font-weight: bold;
   }
 
   &.changed {
-    color: @purple;
+    color: @blue;
   }
 
   &.deleted {
-    color: @red;
+    color: @blue2;
   }
 
   &.italic {
-    color: @purple;
+    color: @blue;
     font-style: italic;
   }
 
   &.heading .punctuation.definition.heading {
-    color: @blue;
+    color: @light-blue;
   }
 
   &.inserted {
-    color: @green;
+    color: @brown;
   }
 
   &.list {
-    color: @red;
+    color: @blue2;
   }
 
   &.quote {
-    color: @orange;
+    color: @light-blue2;
   }
 
   &.raw.inline {
-    color: @green;
+    color: @brown;
   }
 }
 
 .source.gfm .markup {
   -webkit-font-smoothing: auto;
   &.heading {
-    color: @green;
+    color: @brown;
   }
 }
 

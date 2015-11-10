@@ -1,13 +1,15 @@
 {
-  "name": "vscode-syntax",
+  "name": "vs-code-dark-syntax",
   "theme": "syntax",
   "version": "0.0.0",
-  "description": "A short description of your syntax theme",
+  "description": "A VS Code inspired syntax theme",
   "keywords": [
     "syntax",
-    "theme"
+    "theme",
+    "dark",
+    "vscode"
   ],
-  "repository": "https://github.com/atom/vscode-syntax",
+  "repository": "https://github.com/toperux/atom-vs-code-dark-syntax",
   "license": "MIT",
   "engines": {
     "atom": ">=1.0.0 <2.0.0"
